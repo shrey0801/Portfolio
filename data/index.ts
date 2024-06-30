@@ -13,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] ",
     imgClassName: "w-full h-full opacity-50",
     titleClassName: "justify-end",
-    img: "/AI.jpg",
+    img: "./AI.jpg",
     spareImg: "",
   },
   {
@@ -43,8 +43,8 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
+    img: "./grid.svg",
+    spareImg: "./b4.svg",
   },
 
   {
@@ -54,8 +54,8 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
+    img: "./b5.svg",
+    spareImg: "./grid.svg",
   },
   {
     id: 6,
@@ -74,7 +74,7 @@ export const projects = [
     id: 1,
     title: "An Effective EEG Signal-Based Sleep Staging System using Machine Learning Techniques",
     des: "Developed an automated sleep staging system using machine learning, achieving 93.3% accuracy in classifying sleep stages from EEG data, and published the work in IEEE Xplore.",
-    img: "/eeg.jpg",
+    img: "./eeg.jpg",
     height: "300px",
     width: "400px"
     ,
@@ -84,7 +84,7 @@ export const projects = [
     id: 2,
     title: "Computer Vision in Biomedics",
     des: "Led a comprehensive project in computer vision for biomedical imaging, specializing in chest X-ray datasets (Chest X-ray 14, MIMIC, Chexpert, VinDrCXR, Node21, TBX 11, ChestXDet, Pneumothorax), implementing advanced deep learning architectures for segmentation (PEAC, UperNEt, Unet/Unet++, Swin, Dice/IoU), localization (Adam, DINO, Faster-RCNN, Swin, FROC), and classification (ARK, ConvNext, Swin, Internimage), achieving consistent accuracy over 90%, developing custom PyTorch dataloaders, and utilizing rigorous evaluation methodologies.",
-    img: "/face.jpg",
+    img: "./face.jpg",
      height: "300px",
     width: "400px",
     
@@ -94,7 +94,7 @@ export const projects = [
     id: 3,
     title: "Scalable Video Analysis Platform Using AWS Serverless Architecture",
     des: "Developed a scalable video analysis application on AWS Lambda, S3, and IAM, employing serverless computing with FFmpeg for video splitting and ResNet-34 for face recognition, and optimized performance and security using CloudWatch and custom auto-scaling techniques.",
-    img: "/video.jpg",
+    img: "./video.jpg",
      height: "300px",
     width: "400px",
 
@@ -103,7 +103,7 @@ export const projects = [
     id: 4,
     title: "Healthcare Management System",
     des: "Healthcare Management System integrates DBMS techniques for hospital and vaccine management, with IoT for enhanced supply chain optimization through device and sensor connectivity.",
-    img: "/health.jpg",
+    img: "./health.jpg",
      height: "300px",
     width: "400px",
   },
@@ -117,21 +117,21 @@ export const workExperience = [
     title: "Research Intern, Indian Space Research Organisation",
     desc: "Developed a novel navigation solution using Low Earth Orbit satellites by formulating and implementing a mathematical algorithm in MATLAB, achieving an 89.9% position accuracy rate.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "./exp1.svg",
   },
   {
     id: 2,
     title: "Software Development Intern, Marviz Tech Pvt Ltd",
     desc: "Developed a web application using ReactJS and Node.js to serve consumers and manage digital billboards for video advertisement broadcasting.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "./exp2.svg",
   },
   {
     id: 3,
     title: "Data Scientist, eAgent ",
     desc: "Leveraged Numpy and Pandas to preprocess and update daily data files, used Seaborn for data visualization, and contributed to a full-stack web application using MongoDB, ReactJS, and Node.js.",
     className: "md:col-span-4 flex justify-center", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "./exp3.svg",
   },
   // {
   //   id: 4,
@@ -145,13 +145,13 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "./git.svg",
     link: "https://github.com/shrey0801",
   },
   
   {
     id: 3,
-    img: "/link.svg",
+    img: "./link.svg",
     link: "www.linkedin.com/in/shreythakkar0801",
   },
 ];
