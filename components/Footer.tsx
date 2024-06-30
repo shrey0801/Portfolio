@@ -26,7 +26,7 @@ const Footer = () => {
                 />
             </a>
 
-            <a href='/sthakka9@asu.edu_resume.pdf' download id='resume'>
+            <a href='./sthakka9@asu.edu_resume.pdf' download id='resume'>
                 <MagicButton 
                     title="Resume"
                     icon={<RxResume />}
