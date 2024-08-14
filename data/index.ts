@@ -1,6 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
+  {name: "Work Experience", link: "#workExperience"},
   { name: "Contact", link: "#contact" },
   { name: "Resume", link: "#resume" },
 ];
@@ -106,6 +107,8 @@ export const projects = [
     img: "./health.jpg",
      height: "300px",
     width: "400px",
+    link: "https://github.com/shrey0801/Hospital_Management_System",
+    
   },
 ];
 
@@ -121,7 +124,7 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Software Development Intern, Marviz Tech Pvt Ltd",
+    title: "Software Development Intern, Fortius Infotech",
     desc: "Developed a web application using ReactJS and Node.js to serve consumers and manage digital billboards for video advertisement broadcasting.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "./exp2.svg",
