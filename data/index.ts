@@ -115,6 +115,15 @@ export const projects = [
 
 
 export const workExperience = [
+
+  {
+    id: 4,
+    title: "Machine Learning Full Stack Intern",
+    desc: "Collaborated with Silicon Valley FAANG engineers to develop a real-time exercise tracking system using Python, MediaPipe, and OpenCV, integrating a ReactJS/TypeScript frontend with a FastAPI backend. Engineered a scalable JSON-configured architecture to support diverse exercises and leveraged WebSocket for real-time video streaming. Designed intuitive Figma-based interfaces and implemented advanced computer vision techniques for accurate repetition counting, balancing full-stack development with performance optimization.",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
+  },
+
   {
     id: 1,
     title: "Research Intern, Indian Space Research Organisation",
@@ -136,13 +145,7 @@ export const workExperience = [
     className: "md:col-span-4 flex justify-center", // change to md:col-span-2
     thumbnail: "./exp3.svg",
   },
-  // {
-  //   id: 4,
-  //   title: "Lead Frontend Developer",
-  //   desc: "Developed and maintained user-facing features using modern frontend technologies.",
-  //   className: "md:col-span-2",
-  //   thumbnail: "/exp4.svg",
-  // },
+ 
 ];
 
 export const socialMedia = [
